@@ -28,7 +28,7 @@ All tools are sandboxed mocks.
 
 ## Run it
 ```bash
-git clone <this repo> && cd agent-action-guardrail
+git clone https://github.com/Ansika2005/agent_action_guardrail_neubius && cd agent_action_guardrail_neubius
 pip install -r requirements.txt
 cp .env.example .env           # add your NEBIUS_API_KEY
 export $(cat .env | xargs)
